@@ -1,0 +1,129 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+}
+
+h1, h2, h3 {
+    
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #4b37a3;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+    background-color: #371a6d;
+    border-radius: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align:center ;
+}
+
+nav a:hover {
+    background-color: #002fff;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Estilos para os links de redes sociais */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: rgb(63, 55, 180);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Estilos para os interesses */
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section li {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #36358d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+#nome{
+    text-align: center;
+}
